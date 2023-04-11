@@ -1,8 +1,8 @@
 <?php
 function conexion(){
     $host = "localhost";
-    $user = "metalrai_admin";
-    $psswrd = "administrador1591";
+    $user = "root";
+    $psswrd = "";
     $db = "metalrai_sistema";
 
     $mysqli = new mysqli($host, $user, $psswrd, $db);
